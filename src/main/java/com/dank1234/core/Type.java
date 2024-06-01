@@ -1,4 +1,4 @@
-package com.dank1234.core.lexer;
+package com.dank1234.core;
 
 public enum Type {
     IDENTIFIER,

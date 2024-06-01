@@ -1,4 +1,4 @@
-package com.dank1234.core.lexer;
+package com.dank1234.core;
 
 public record Token(Type type, String value, int line, int column) {
     @Override
