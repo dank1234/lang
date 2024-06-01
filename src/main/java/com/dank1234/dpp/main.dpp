@@ -1,0 +1,11 @@
+class Main {
+    var float x = 7; // Variable
+    const double y = 8.1d; // Constant Variable
+    stat int z = 0.2f; // Static Variable
+
+    func int main() {
+        println("The variable x is: "+this.x);
+        println("Y: ${y}");
+        return z;
+    }
+}

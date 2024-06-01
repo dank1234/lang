@@ -1,17 +1,24 @@
 package com.dank1234;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import com.dank1234.core.lexer.Lexer;
+import com.dank1234.core.lexer.Token;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+import java.io.File;
+import java.nio.file.Files;
+import java.util.List;
+
+public class Main {
+    private static final String filePath = "src/main/java/com/dank1234/dpp/main.dpp";
+
+    public void main() {
+        try {
+            System.out.println();
+            String content = new String(Files.readAllBytes(new File(filePath).toPath()));
+            Lexer lexer = new Lexer(content);
+            List<Token> tokens = lexer.tokenize();
+            for (Token token : tokens) {
+                System.out.println(token);
+            }
+        }catch(Exception _){}
     }
 }
