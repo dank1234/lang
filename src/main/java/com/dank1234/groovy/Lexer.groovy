@@ -62,7 +62,7 @@ class Lexer {
     }
 
     private void skipMultiLineComment() {
-        currentPos += 2 // Skip the /* characters
+        currentPos += 2
         currentColumn += 2
         while (currentPos < input.length() && !(input[currentPos] == '*' && peekNextChar() == '/')) {
             if (input[currentPos] == '\n') {
@@ -74,7 +74,7 @@ class Lexer {
             currentPos++
         }
         if (currentPos < input.length()) {
-            currentPos += 2 // Skip the */ characters
+            currentPos += 2
             currentColumn += 2
         }
     }
@@ -140,7 +140,7 @@ class Lexer {
             currentColumn++
         }
         String value = input.substring(start, currentPos)
-        currentPos++ // Skip closing quote
+        currentPos++
         currentColumn++
         new Token(Type.STRING, value, currentLine, currentColumn)
     }
