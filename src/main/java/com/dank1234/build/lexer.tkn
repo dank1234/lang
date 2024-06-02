@@ -1,0 +1,122 @@
+[
+	{
+		"type": "CLASS", 
+		"value": "class", 
+		"line": "1", 
+		"column": "6"
+	},
+	{
+		"type": "IDENTIFIER", 
+		"value": "Main", 
+		"line": "1", 
+		"column": "11"
+	},
+	{
+		"type": "L_BRACE", 
+		"value": "{", 
+		"line": "1", 
+		"column": "13"
+	},
+	{
+		"type": "FUNC", 
+		"value": "func", 
+		"line": "2", 
+		"column": "9"
+	},
+	{
+		"type": "INT", 
+		"value": "int", 
+		"line": "2", 
+		"column": "13"
+	},
+	{
+		"type": "IDENTIFIER", 
+		"value": "main", 
+		"line": "2", 
+		"column": "18"
+	},
+	{
+		"type": "L_PAR", 
+		"value": "(", 
+		"line": "2", 
+		"column": "19"
+	},
+	{
+		"type": "R_PAR", 
+		"value": ")", 
+		"line": "2", 
+		"column": "20"
+	},
+	{
+		"type": "L_BRACE", 
+		"value": "{", 
+		"line": "2", 
+		"column": "22"
+	},
+	{
+		"type": "IDENTIFIER", 
+		"value": "println", 
+		"line": "3", 
+		"column": "16"
+	},
+	{
+		"type": "L_PAR", 
+		"value": "(", 
+		"line": "3", 
+		"column": "17"
+	},
+	{
+		"type": "STRING", 
+		"value": "Variable: ${x}", 
+		"line": "3", 
+		"column": "33"
+	},
+	{
+		"type": "R_PAR", 
+		"value": ")", 
+		"line": "3", 
+		"column": "34"
+	},
+	{
+		"type": "SEMICOLON", 
+		"value": ";", 
+		"line": "3", 
+		"column": "35"
+	},
+	{
+		"type": "RETURN", 
+		"value": "return", 
+		"line": "4", 
+		"column": "15"
+	},
+	{
+		"type": "NUMBER", 
+		"value": "93", 
+		"line": "4", 
+		"column": "18"
+	},
+	{
+		"type": "SEMICOLON", 
+		"value": ";", 
+		"line": "4", 
+		"column": "19"
+	},
+	{
+		"type": "R_BRACE", 
+		"value": "}", 
+		"line": "5", 
+		"column": "6"
+	},
+	{
+		"type": "R_BRACE", 
+		"value": "}", 
+		"line": "6", 
+		"column": "2"
+	},
+	{
+		"type": "EOF", 
+		"value": "", 
+		"line": "6", 
+		"column": "2"
+	},
+]

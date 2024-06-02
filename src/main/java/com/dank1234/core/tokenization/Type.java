@@ -1,4 +1,4 @@
-package com.dank1234.core;
+package com.dank1234.core.tokenization;
 
 public enum Type {
     IDENTIFIER,

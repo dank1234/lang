@@ -1,5 +1,6 @@
 package com.dank1234.groovy
 
+import com.dank1234.groovy.lexer.Lexer
 import com.dank1234.groovy.parser.Parser
 import com.dank1234.groovy.util.FileUtil
 

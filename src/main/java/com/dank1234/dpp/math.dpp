@@ -1,0 +1,13 @@
+class Math {
+    var int x = 10;
+
+    func int getX()
+    {
+        return x;
+    }
+
+    func int main()
+    {
+        return this.getX();
+    }
+}

@@ -1,7 +1,7 @@
 package com.dank1234.groovy.parser.scripts
 
-import com.dank1234.core.Token
-import com.dank1234.core.Type
+import com.dank1234.core.tokenization.Token
+import com.dank1234.core.tokenization.Type
 import com.dank1234.groovy.parser.Parser
 
 class Methods {
