@@ -3,6 +3,13 @@ class Main {
     const double y = 8.1d; // Constant Variable
     stat int z = 0.2f; // Static Variable
 
+    // This is a single comment
+
+    /*
+        This is a
+        multiline comment
+    */
+
     func int main() {
         println("The variable x is: "+this.x);
         println("Y: ${y}");
